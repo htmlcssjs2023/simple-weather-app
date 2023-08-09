@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background:linear-gradient(45deg,#C8AE7D,#765827);
+    width:450px;
+    height: 600px;
+    margin:10px auto 0;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+input{
+height: 50px;
+width: 300px;
+border-radius: 30px;
+outline: none;
+border: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5rem;
+padding: 0 20px;
+color: grey;
+}
+button{
+ width: 50px;
+ height: 50px;
+ margin: 10px;
+ border-radius: 50px;
+ border: transparent;
+ 
+}
+.btn:hover{
+cursor: pointer;
+background-color: #B5C99A;
+}
+button img{
+width: 30px;
+height: 30px;
+}
+.weather-img img{
+width: 200px;
+height: 200px;
+margin-top: -30px;
+}
+.typography{
+color:#fff;
+text-align: center;
+}
+.typography .temp{
+font-size: 3rem;
+font-family: "Fira Code";
+}
+.typography .city{
+font-size: 4rem;
+font-family: "Fira Code";
+}
+.col{
+display: flex;
+justify-content: space-between;
+align-items: center;
+column-gap: 40px;
+margin-top: 49px;
+}
+.humidity{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.humidity img{
+width:40px;
+height: 40px;
+margin-right: 10px;
+}
+.details{
+color: #fff;
+}
